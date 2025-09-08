@@ -1,0 +1,29 @@
+#block1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation: blockAnimation1 5s infinite;
+}
+
+#block2{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation: blockAnimation2 5s infinite;
+}
+
+@keyframes blockAnimation1 {
+    0% {top: 0px;}  
+    50% {top: 50px;}  
+    100% {top: 100px;}    
+}
+
+@keyframes blockAnimation2 {
+    0% {top: 0px; left: 0px;}  
+    50% {top: 50px; left: 50px;}  
+    100% {top: 100px; left: 0px
+        ;}    
+}
