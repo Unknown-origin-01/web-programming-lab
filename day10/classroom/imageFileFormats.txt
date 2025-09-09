@@ -1,0 +1,21 @@
+<!-- image file formats - Raster and vector -->
+
+                                             Image File Formats
+                                                    |
+                                  |-----------------|-----------------|
+                                  |                                   |
+                                Raster                             Vector
+                                  |                                   |
+           |----------------------|                                   |
+           |                      |                                   |              
+      Uncompressed           Compressed                          eg. SVG, EPS
+           |                      |
+           |            |---------|---------|
+      BMP Format        |                   |
+                      Lossy              Lossless
+                        |                   |
+                     eg. jpg       eg. TIFF, PNG, GIF
+                                        |     |
+                                        |     |
+                                     Web(X)  APNG
+       
